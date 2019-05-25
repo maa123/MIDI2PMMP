@@ -1,5 +1,5 @@
 <?php
-namespace maa123\midi2pmmp;
+namespace MIDI2PMMP;
 
 
 use pocketmine\event\Listener;
@@ -18,7 +18,7 @@ use pocketmine\network\mcpe\protocol\PlaySoundPacket;
 
 
 
-use maa123\midi2pmmp\commands\M2PCommand;
+use MIDI2PMMP\commands\M2PCommand;
 
 class Main extends PluginBase implements Listener{
 
@@ -26,7 +26,7 @@ class Main extends PluginBase implements Listener{
 
 	public function onEnable(){
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
-		$this->getServer()->getCommandMap()->registerAll("midi2pmmp", [new M2PCommand($this)]);
+		$this->getServer()->getCommandMap()->registerAll("MIDI2PMMP", [new M2PCommand($this)]);
 
 		$this->soundList = glob($this->getDataFolder()."*.json");
 	}

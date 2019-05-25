@@ -1,5 +1,5 @@
 <?php
-namespace maa123\midi2pmmp\commands;
+namespace MIDI2PMMP\commands;
 
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
@@ -9,7 +9,7 @@ use pocketmine\Player;
 use pocketmine\plugin\Plugin;
 
 
-use maa123\midi2pmmp;
+use MIDI2PMMP;
 
 class M2PCommand extends Command {
 	public function __construct(Plugin $_this){
