@@ -1,0 +1,6 @@
+name: MIDI2PMMP
+main: MIDI2PMMP\Main
+version: 1.0.0
+api: 3.2.0
+load: POSTWORLD
+author: maa123
