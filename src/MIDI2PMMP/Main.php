@@ -22,7 +22,7 @@ use MIDI2PMMP\commands\M2PCommand;
 
 class Main extends PluginBase implements Listener{
 
-	private $SoundPlayers = [];
+	public $SoundPlayers = [];
 
 	public function onEnable(){
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
