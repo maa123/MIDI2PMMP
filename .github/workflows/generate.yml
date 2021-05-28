@@ -14,3 +14,7 @@ jobs:
 
     - name: Generate Phar
       run: php -d "phar.readonly=0" generate.php
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v2.2.3
+      with:
+        path: M2P.phar 
