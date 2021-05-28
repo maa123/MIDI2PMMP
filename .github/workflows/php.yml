@@ -13,4 +13,4 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Generate Phar
-      run: php -d phar.readonly = 0 generate.php
+      run: php -d "phar.readonly=0" generate.php
