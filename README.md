@@ -1,4 +1,5 @@
 # MIDI2PMMP
+[![lint](https://github.com/maa123/MIDI2PMMP/actions/workflows/lint.yml/badge.svg)](https://github.com/maa123/MIDI2PMMP/actions/workflows/lint.yml)
 [![Phar](https://github.com/maa123/MIDI2PMMP/actions/workflows/generate.yml/badge.svg)](https://github.com/maa123/MIDI2PMMP/actions/workflows/generate.yml)
 
 PocketMine-MP内でmidiを再生
