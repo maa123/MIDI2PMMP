@@ -1,4 +1,6 @@
 # MIDI2PMMP
+[![Phar](https://github.com/maa123/MIDI2PMMP/actions/workflows/generate.yml/badge.svg)](https://github.com/maa123/MIDI2PMMP/actions/workflows/generate.yml)
+
 PocketMine-MP内でmidiを再生
 
 このプログラムで事前に変換する必要があります。
